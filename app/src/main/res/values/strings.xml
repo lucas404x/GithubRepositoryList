@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">GithubRepositoryList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_login_github">Login with Github</string>
 </resources>
