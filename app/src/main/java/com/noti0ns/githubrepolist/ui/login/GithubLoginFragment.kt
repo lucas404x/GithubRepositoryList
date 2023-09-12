@@ -19,4 +19,13 @@ class GithubLoginFragment : Fragment() {
         binding = FragmentGithubLoginBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.btnGithubLogin.setOnClickListener {
+            binding.btnGithubLogin.visibility = View.GONE
+            binding.pgbrGeneratingGithubCode.visibility = View.VISIBLE
+        }
+        super.onViewCreated(view, savedInstanceState)
+    }
+
 }
